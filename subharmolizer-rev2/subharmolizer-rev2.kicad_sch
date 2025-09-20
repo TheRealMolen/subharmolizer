@@ -1,0 +1,862 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "91a8f1d9-b08b-4cee-bee7-e3a446067852")
+	(paper "A4")
+	(title_block
+		(title "Subharmolizer Overview")
+		(date "2025-09-20")
+		(rev "2")
+		(company "molen, inc.")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 54.61 82.55)
+		(end 66.04 88.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1a080930-10c5-45b5-9252-1f2f0a771dd2)
+	)
+	(rectangle
+		(start 114.3 82.55)
+		(end 127 88.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 225e52f6-f38e-4fa3-9070-ed676ab6033c)
+	)
+	(arc
+		(start 49.53 90.17)
+		(mid 49.902 89.272)
+		(end 50.8 88.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2e033457-b35f-4e8d-b3c5-4943f0e4a014)
+	)
+	(arc
+		(start 54.61 90.17)
+		(mid 54.238 91.068)
+		(end 53.34 91.44)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 83cc2615-6a3a-40a6-887b-30f5afe61d6b)
+	)
+	(arc
+		(start 50.8 88.9)
+		(mid 51.698 89.272)
+		(end 52.07 90.17)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8af96834-f811-4517-9a8c-acd6c80a99cb)
+	)
+	(rectangle
+		(start 88.9 82.55)
+		(end 100.33 88.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8b3c69fb-6c7f-4707-bcd9-34669a02168e)
+	)
+	(rectangle
+		(start 146.05 82.55)
+		(end 153.67 88.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ad91669e-4059-4230-b044-cb9d02a53bbf)
+	)
+	(rectangle
+		(start 71.12 82.55)
+		(end 82.55 88.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bb4f9a3b-5b10-45f5-8f63-2dcec17d4ca5)
+	)
+	(arc
+		(start 53.34 91.44)
+		(mid 52.442 91.068)
+		(end 52.07 90.17)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bd894cd4-0b90-4ebe-b9a5-196f2cd2dac9)
+	)
+	(rectangle
+		(start 132.08 82.55)
+		(end 139.7 88.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c1f36017-69d7-4574-9968-b3fa7570768e)
+	)
+	(rectangle
+		(start 101.6 82.55)
+		(end 109.22 88.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e7786bcc-101e-4c00-bb31-bbeb0f6a7b7b)
+	)
+	(text "Schmitt\nTrigger"
+		(exclude_from_sim no)
+		(at 60.452 85.852 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "09131673-4b38-41d3-bf88-ee0f5d52318a")
+	)
+	(text "-"
+		(exclude_from_sim no)
+		(at 115.316 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0995ae6f-30e2-4d31-aa72-2a7fe0edf415")
+	)
+	(text "Edge\nDetect"
+		(exclude_from_sim no)
+		(at 135.89 85.852 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "24ae13c6-1438-48ce-8232-aa883a2e53bb")
+	)
+	(text "Block Diagram"
+		(exclude_from_sim no)
+		(at 58.928 67.564 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "3939d5bd-7914-4f3b-89cf-0d172d29e119")
+	)
+	(text "Flip\nFlop"
+		(exclude_from_sim no)
+		(at 149.86 85.852 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "584d5f3c-3c12-4a90-9b12-ceed5b0c74e9")
+	)
+	(text "Threshold\n~1V - ~11V"
+		(exclude_from_sim no)
+		(at 113.284 78.232 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "608013a6-83a8-4a46-85a5-bc1cadf47e38")
+	)
+	(text "Subharmolizer"
+		(exclude_from_sim no)
+		(at 56.642 31.496 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "69e97516-2ee1-4a8d-a922-e4c7540da256")
+	)
+	(text "Audio\nIN"
+		(exclude_from_sim no)
+		(at 48.514 85.344 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "74ad3b1d-04bd-4446-9d17-5a94a3821bab")
+	)
+	(text "Issues with rev1\n\n1. needs frontend filter to remove freqs > ~4kHz\n    (or: the frequency doubler needs tweaking to support higher freqs)\n\n2. output vol seems v low\n\n3. need to add CV override to Threshold input\n\n4. phase of output is unpredictable - freq doubler can see a -ve change before a +ve one\n\n5. bonkersness when Threshold set very close to an exact level coming from D2A\n    maybe need some hysteresis?\n\n6. might be nice to add a second counter to allow for more subharms\n   or perhaps use a CD4060 or such instead of CD4516 - we're not using the preset\n\n7. output square wave has a significant spike on the leading edge"
+		(exclude_from_sim no)
+		(at 45.72 128.016 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7988ca65-6d10-454b-b696-81572271b33b")
+	)
+	(text "D2A"
+		(exclude_from_sim no)
+		(at 105.41 85.852 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "879071fa-a100-415a-9ad4-d8c53aa26982")
+	)
+	(text "+"
+		(exclude_from_sim no)
+		(at 115.316 87.884 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a4bb9967-8875-459e-bd21-870bd6d6fc03")
+	)
+	(text "Comparator"
+		(exclude_from_sim no)
+		(at 120.396 85.852 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "da24dd9c-1cda-4a6e-9f96-2be3b9b40e8c")
+	)
+	(text "Frequency\nDoubler"
+		(exclude_from_sim no)
+		(at 76.962 85.852 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dccf30b4-186e-4aff-a819-cd7f57f18380")
+	)
+	(text "Counter"
+		(exclude_from_sim no)
+		(at 94.742 85.852 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f730c780-5e82-43b3-a3e5-ece99cb9439b")
+	)
+	(text "Eurorack Module to generate a square wave subharmonic of an input audio signal"
+		(exclude_from_sim no)
+		(at 41.91 40.386 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f928e59d-9910-4d4a-b7ed-1d00608d516e")
+	)
+	(text "Audio\nOUT"
+		(exclude_from_sim no)
+		(at 160.02 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa8f2f58-8e1b-4203-bb7c-268466e3b398")
+	)
+	(polyline
+		(pts
+			(xy 66.04 85.09) (xy 71.12 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0068d8c2-897c-4cfd-a60e-9f7a386d1ff7")
+	)
+	(polyline
+		(pts
+			(xy 162.56 91.44) (xy 162.56 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bc9f7a8-d82e-473c-82d6-c7fda738b7df")
+	)
+	(polyline
+		(pts
+			(xy 87.63 91.44) (xy 88.9 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17133cb9-1563-4276-83fd-e41a0e11a292")
+	)
+	(polyline
+		(pts
+			(xy 128.27 90.17) (xy 132.08 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d26e4d0-c468-41fc-8d5a-d0320a644851")
+	)
+	(polyline
+		(pts
+			(xy 85.09 91.44) (xy 86.36 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e8e4361-e7a8-421b-bde2-360901781487")
+	)
+	(polyline
+		(pts
+			(xy 114.3 83.82) (xy 113.03 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c96cb4a-7acf-48ec-9d9c-5c960265087d")
+	)
+	(polyline
+		(pts
+			(xy 153.67 91.44) (xy 154.94 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "359520f1-2a21-45af-8021-b8693055cf2d")
+	)
+	(polyline
+		(pts
+			(xy 100.33 87.63) (xy 101.6 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37a8c603-f53e-4987-98bb-ee779dc8e20d")
+	)
+	(polyline
+		(pts
+			(xy 67.31 88.9) (xy 69.85 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39c0dcc4-3f33-43c6-91e6-03d76489ad6f")
+	)
+	(polyline
+		(pts
+			(xy 109.22 91.44) (xy 110.49 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "454ca975-53ea-45ab-a1be-7370f62ed4af")
+	)
+	(polyline
+		(pts
+			(xy 132.08 91.44) (xy 133.35 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5757dde0-7123-4054-b08b-44223b889023")
+	)
+	(polyline
+		(pts
+			(xy 153.67 85.09) (xy 158.75 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6763b438-6a6f-46dc-b02e-a46f3962b8f5")
+	)
+	(polyline
+		(pts
+			(xy 154.94 91.44) (xy 154.94 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b431e68-9f70-4edf-bb60-156318ad59c6")
+	)
+	(polyline
+		(pts
+			(xy 87.63 88.9) (xy 87.63 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7227306f-6333-433a-b3e3-4b7e10755e06")
+	)
+	(polyline
+		(pts
+			(xy 85.09 88.9) (xy 85.09 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74b4300a-5c22-4524-aeec-9fe76f830df4")
+	)
+	(polyline
+		(pts
+			(xy 88.9 90.17) (xy 88.9 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75230e4f-439f-4ee1-b5b6-5a8107b4ef41")
+	)
+	(polyline
+		(pts
+			(xy 139.7 85.09) (xy 146.05 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7953817d-fbda-48a3-ab50-8bf9436e7ba9")
+	)
+	(polyline
+		(pts
+			(xy 110.49 91.44) (xy 110.49 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a016824-11f7-46d6-b778-3770db800c2f")
+	)
+	(polyline
+		(pts
+			(xy 69.85 88.9) (xy 69.85 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a50cdb4-5a89-431f-8f1b-6d77609cb286")
+	)
+	(polyline
+		(pts
+			(xy 82.55 85.09) (xy 88.9 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8432b471-017e-4250-b891-1bc2f1074941")
+	)
+	(polyline
+		(pts
+			(xy 100.33 83.82) (xy 101.6 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86ff17de-7278-4260-b47d-59d96ba7a44a")
+	)
+	(polyline
+		(pts
+			(xy 111.76 90.17) (xy 111.76 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c2bf1af-ce26-43a5-86f3-36678f7db0c6")
+	)
+	(polyline
+		(pts
+			(xy 153.67 91.44) (xy 154.94 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e79bd0a-32b2-4297-a200-51b6086e2e01")
+	)
+	(polyline
+		(pts
+			(xy 127 85.09) (xy 132.08 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f920ded-c98b-47b9-aeb3-49b8155c3743")
+	)
+	(polyline
+		(pts
+			(xy 128.27 91.44) (xy 128.27 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90ad24fd-873c-441f-9715-0ee59ab97783")
+	)
+	(polyline
+		(pts
+			(xy 69.85 91.44) (xy 72.39 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93924ceb-f573-4d8a-a534-5c194680446b")
+	)
+	(polyline
+		(pts
+			(xy 86.36 91.44) (xy 86.36 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95f1261c-fa2e-4ac0-b140-aa2765f86ded")
+	)
+	(polyline
+		(pts
+			(xy 67.31 90.17) (xy 67.31 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96632927-d16f-4314-a9d4-5d3746159ff4")
+	)
+	(polyline
+		(pts
+			(xy 113.03 88.9) (xy 113.03 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9be00c7d-bd98-4e11-99c3-fce9a1d85c81")
+	)
+	(polyline
+		(pts
+			(xy 49.53 85.09) (xy 54.61 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aecb4e70-fa74-4ab0-944e-4ba32504431f")
+	)
+	(polyline
+		(pts
+			(xy 154.94 88.9) (xy 158.75 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b51988b9-b145-4b21-bd28-680051330469")
+	)
+	(polyline
+		(pts
+			(xy 139.7 91.44) (xy 140.97 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba379de5-3e71-4e48-a963-3ffe132e8507")
+	)
+	(polyline
+		(pts
+			(xy 132.08 90.17) (xy 132.08 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba95dbee-5cb3-42fd-93fd-c603cbe2b07a")
+	)
+	(polyline
+		(pts
+			(xy 158.75 91.44) (xy 162.56 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2b76633-2bc6-4b4f-962e-8ef57a500437")
+	)
+	(polyline
+		(pts
+			(xy 83.82 90.17) (xy 83.82 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc6b08fe-edae-4c11-8de1-625a08947f0f")
+	)
+	(polyline
+		(pts
+			(xy 86.36 88.9) (xy 87.63 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d045f395-433e-4330-9bb0-8239db00e771")
+	)
+	(polyline
+		(pts
+			(xy 110.49 90.17) (xy 111.76 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d405bae8-8b00-4564-af77-435c5b910e26")
+	)
+	(polyline
+		(pts
+			(xy 83.82 88.9) (xy 85.09 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8c0f584-9ea2-44dc-9bca-73e43fe9f57f")
+	)
+	(polyline
+		(pts
+			(xy 140.97 91.44) (xy 144.78 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9bd47d9-880f-42f4-ad6c-45cee2c976cf")
+	)
+	(polyline
+		(pts
+			(xy 140.97 90.17) (xy 140.97 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc3a5abe-ac0e-472e-811c-33b5678e38ab")
+	)
+	(polyline
+		(pts
+			(xy 153.67 91.44) (xy 154.94 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de2a2b3e-a6e8-4a9b-8a42-0f879eb96a91")
+	)
+	(polyline
+		(pts
+			(xy 158.75 88.9) (xy 158.75 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "def9dd58-7eb6-4e51-bfa5-2c8755938c2f")
+	)
+	(polyline
+		(pts
+			(xy 100.33 86.36) (xy 101.6 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0eaedd9-64c2-4d66-a6c2-8881fc4f98a0")
+	)
+	(polyline
+		(pts
+			(xy 111.76 88.9) (xy 113.03 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3b50896-751a-4031-8f9c-1cbb8aac6287")
+	)
+	(polyline
+		(pts
+			(xy 100.33 85.09) (xy 101.6 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e720c693-10c3-4e2b-b373-a98c52174fd0")
+	)
+	(polyline
+		(pts
+			(xy 113.03 80.01) (xy 113.03 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9ba25a6-0ccc-488f-8226-3cfd8b754bbf")
+	)
+	(polyline
+		(pts
+			(xy 128.27 85.09) (xy 132.08 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebbd26a9-ed45-459d-8e19-f8122f44d0ed")
+	)
+	(polyline
+		(pts
+			(xy 72.39 90.17) (xy 72.39 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edae0c1a-9a0a-41ad-b2d5-965514ff75eb")
+	)
+	(polyline
+		(pts
+			(xy 109.22 87.63) (xy 114.3 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eddb2410-384b-4665-8c3a-f8b2eee0dcce")
+	)
+	(polyline
+		(pts
+			(xy 162.56 88.9) (xy 163.83 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f44b9dc8-3505-4ed9-a2dc-f76968bcacc1")
+	)
+	(sheet
+		(at 49.53 167.64)
+		(size 12.7 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4d188384-7bc4-4e23-b33c-06084499eb68")
+		(property "Sheetname" "Schematic"
+			(at 49.53 166.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "subharmolizer-schem.kicad_sch"
+			(at 49.53 177.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "subharmolizer-rev2"
+				(path "/91a8f1d9-b08b-4cee-bee7-e3a446067852"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
