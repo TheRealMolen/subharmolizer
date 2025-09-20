@@ -209,7 +209,7 @@
 	)
 	(text "Subharmolizer"
 		(exclude_from_sim no)
-		(at 56.642 31.496 0)
+		(at 58.674 35.306 0)
 		(effects
 			(font
 				(size 3 3)
@@ -228,7 +228,7 @@
 		)
 		(uuid "74ad3b1d-04bd-4446-9d17-5a94a3821bab")
 	)
-	(text "Issues with rev1\n\n1. needs frontend filter to remove freqs > ~4kHz\n    (or: the frequency doubler needs tweaking to support higher freqs)\n\n2. output vol seems v low\n\n3. need to add CV override to Threshold input\n\n4. phase of output is unpredictable - freq doubler can see a -ve change before a +ve one\n\n5. bonkersness when Threshold set very close to an exact level coming from D2A\n    maybe need some hysteresis?\n\n6. might be nice to add a second counter to allow for more subharms\n   or perhaps use a CD4060 or such instead of CD4516 - we're not using the preset\n\n7. output square wave has a significant spike on the leading edge"
+	(text "Issues with rev1\n\n1. needs frontend filter to remove freqs > ~4kHz\n    (or: the frequency doubler needs tweaking to support higher freqs)\n\n2. output vol seems v low\n\n3. need to add CV override to Threshold input\n\n4. phase of output is unpredictable - freq doubler can see a -ve change before a +ve one\n\n5. bonkersness when Threshold set very close to an exact level coming from D2A\n    maybe need some hysteresis?\n\n6. might be nice to add a second counter to allow for more subharms\n   or perhaps use a CD4024 or such instead of CD4516 - we're not using the preset\n\n7. output square wave has a significant spike on the leading edge"
 		(exclude_from_sim no)
 		(at 45.72 128.016 0)
 		(effects
@@ -291,7 +291,7 @@
 	)
 	(text "Eurorack Module to generate a square wave subharmonic of an input audio signal"
 		(exclude_from_sim no)
-		(at 41.91 40.386 0)
+		(at 45.212 41.656 0)
 		(effects
 			(font
 				(size 1.27 1.27)
